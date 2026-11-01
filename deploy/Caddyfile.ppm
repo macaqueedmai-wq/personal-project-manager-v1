@@ -1,0 +1,11 @@
+# This block is appended to the existing Caddy site configuration on the
+# Lighthouse instance. It is kept here as documentation; it is not applied
+# automatically. Replace the hostname when an owned domain is available.
+
+ppm.43-161-239-58.sslip.io {
+	encode zstd gzip
+	header {
+		Strict-Transport-Security "max-age=31536000"
+	}
+	reverse_proxy ppm-app:3000
+}

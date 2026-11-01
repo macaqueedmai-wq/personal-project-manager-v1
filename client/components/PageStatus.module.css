@@ -1,0 +1,77 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 24px;
+  color: var(--color-ink-soft);
+}
+
+.compact {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 18px 0;
+  color: var(--color-ink-soft);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.title {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+.description {
+  font-size: 14px;
+  color: var(--color-ink-soft);
+}
+
+.retry {
+  align-self: flex-start;
+  margin-top: 8px;
+  border: 1px solid var(--color-line);
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  padding: 8px 14px;
+  font-weight: 600;
+}
+
+.retry:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent-strong);
+}
+
+.spinner {
+  width: 22px;
+  height: 22px;
+  flex: none;
+  border-radius: 50%;
+  border: 3px solid var(--color-line);
+  border-top-color: var(--color-accent);
+  animation: spin 900ms linear infinite;
+}
+
+.errorMark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex: none;
+  border-radius: 50%;
+  background: var(--color-danger-soft);
+  color: var(--color-danger);
+  font-weight: 700;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

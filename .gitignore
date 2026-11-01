@@ -1,0 +1,25 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+.vite/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.deploy/
+
+# Local data, backups and logs
+data/
+backups/
+*.dump
+*.sql.gz
+*.log
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

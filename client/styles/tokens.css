@@ -1,0 +1,24 @@
+:root {
+  --color-bg: #f4f1ea;
+  --color-surface: #fffdf8;
+  --color-surface-muted: #efeae0;
+  --color-ink: #1d292b;
+  --color-ink-soft: #576467;
+  --color-line: #ded7c9;
+  --color-accent: #0f665a;
+  --color-accent-strong: #0a4a42;
+  --color-accent-soft: #dcebe6;
+  --color-danger: #9c352c;
+  --color-danger-soft: #f7e5e1;
+  --color-success: #246b4a;
+  --sidebar-bg: #132326;
+  --sidebar-ink: #f1eee5;
+  --sidebar-ink-soft: #a9b7b4;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --shadow-card: 0 1px 1px rgba(29, 41, 43, 0.04), 0 20px 44px -36px rgba(29, 41, 43, 0.5);
+  --font-sans: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang HK', 'PingFang TC',
+    system-ui, -apple-system, sans-serif;
+  --focus-ring: 0 0 0 3px var(--color-bg), 0 0 0 6px var(--color-accent);
+}

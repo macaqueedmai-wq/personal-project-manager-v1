@@ -1,0 +1,24 @@
+node_modules
+dist
+coverage
+playwright-report
+test-results
+.deploy
+.github
+
+# Never put secrets or local configuration in a build context.
+.env
+.env.*
+!.env.example
+
+.git
+.gitignore
+.gitattributes
+docs
+spec-v1
+README.md
+*.log
+
+# Existing independent deployment files are not part of this image.
+deploy
+Caddyfile.ppm

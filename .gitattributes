@@ -1,0 +1,8 @@
+# Keep text files consistent between Windows development and Linux CI.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
